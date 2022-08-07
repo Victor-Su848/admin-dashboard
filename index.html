@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <nav class="child">
+    <nav>
         <h1><img src="media/view-dashboard.svg" alt="dashboard icon" class="nav-icons large">Dashboard</h1>
         <ul>
             <li><img src="media/home.svg" alt="home icon" class="nav-icons">Home</li>
@@ -26,19 +26,19 @@
             <li><img src="media/shield-check.svg" alt="privacy icon" class="nav-icons">Privacy</li>
         </ul>
     </nav>
-    <header class="child">
-        <div class="search-bar">
-            <img src="" alt="magnifying glass icon">
-            <div class="bar"></div>
-        </div>
+    <header>
+        <form>
+            <img src="media/magnify.svg" alt="magnifying glass icon">
+            <input type="text" class="bar">
+        </form>
         <div class="side-user-info">
-            <img src="" alt="bell icon">
-            <img src="" alt="profile picture">
+            <img src="media/bell.svg" alt="bell icon" class="large">
+            <img src="media/account.svg" alt="profile picture" class="large">
             <p>Victor Su</p>
         </div>
         <div class="buttons">
             <div class="main-user-info">
-                <img src="" alt="profile picture">
+                <img src="media/account.svg" alt="profile picture" class="extra-large">
                 <div>
                     <p>Hi there,</p>
                     <p>Victor Su (@victor)</p>
@@ -51,7 +51,7 @@
             </ul>
         </div>
     </header>
-    <main class="child">
+    <main>
         <div class="projects-section">
             <h2>Your Projects</h2>
             <div class="projects">
@@ -68,9 +68,9 @@
                         </p>
                     </div>
                     <div class="project-icons">
-                        <img src="" alt="star-icon">
-                        <img src="" alt="eye-icon">
-                        <img src="" alt="share-icon">
+                        <img src="media/star-plus-outline.svg" alt="star-icon">
+                        <img src="media/eye-plus-outline.svg" alt="eye-icon">
+                        <img src="media/link.svg" alt="share-icon">
                     </div>
                 </div>
                 <div class="white-box project">
@@ -82,9 +82,9 @@
                         </p>
                     </div>
                     <div class="project-icons">
-                        <img src="" alt="star-icon">
-                        <img src="" alt="eye-icon">
-                        <img src="" alt="share-icon">
+                        <img src="media/star-plus-outline.svg" alt="star-icon">
+                        <img src="media/eye-plus-outline.svg" alt="eye-icon">
+                        <img src="media/link.svg" alt="share-icon">
                     </div>
                 </div>
                 <div class="white-box project">
@@ -95,9 +95,9 @@
                         </p>
                     </div>
                     <div class="project-icons">
-                        <img src="" alt="star-icon">
-                        <img src="" alt="eye-icon">
-                        <img src="" alt="share-icon">
+                        <img src="media/star-plus-outline.svg" alt="star-icon">
+                        <img src="media/eye-plus-outline.svg" alt="eye-icon">
+                        <img src="media/link.svg" alt="share-icon">
                     </div>
                 </div>
                 <div class="white-box project">
@@ -107,9 +107,9 @@
                             rhoncus. Morbi nec est at augue pulvinar mattis ac et nisi.</p>
                     </div>
                     <div class="project-icons">
-                        <img src="" alt="star-icon">
-                        <img src="" alt="eye-icon">
-                        <img src="" alt="share-icon">
+                        <img src="media/star-plus-outline.svg" alt="star-icon">
+                        <img src="media/eye-plus-outline.svg" alt="eye-icon">
+                        <img src="media/link.svg" alt="share-icon">
                     </div>
                 </div>
                 <div class="white-box project">
@@ -119,9 +119,9 @@
                             Integer sollicitudin augue nec consequat interdum.</p>
                     </div>
                     <div class="project-icons">
-                        <img src="" alt="star-icon">
-                        <img src="" alt="eye-icon">
-                        <img src="" alt="share-icon">
+                        <img src="media/star-plus-outline.svg" alt="star-icon">
+                        <img src="media/eye-plus-outline.svg" alt="eye-icon">
+                        <img src="media/link.svg" alt="share-icon">
                     </div>
                 </div>
                 <div class="white-box project">
@@ -133,9 +133,9 @@
                             ultricies ipsum finibus id.</p>
                     </div>
                     <div class="project-icons">
-                        <img src="" alt="star-icon">
-                        <img src="" alt="eye-icon">
-                        <img src="" alt="share-icon">
+                        <img src="media/star-plus-outline.svg" alt="star-icon">
+                        <img src="media/eye-plus-outline.svg" alt="eye-icon">
+                        <img src="media/link.svg" alt="share-icon">
                     </div>
                 </div>
             </div>
@@ -145,15 +145,18 @@
             <div class="announcements white-box">
                 <div class="announcement">
                     <h3>Announcement 1</h3>
-                    <p>Ut elit justo, ultrices nec commodo id, vestibulum sit amet augue. Nam vel tristique libero. Phasellus convallis est nec scelerisque bibendum.</p>
+                    <p>Ut elit justo, ultrices nec commodo id, vestibulum sit amet augue. Nam vel tristique libero.
+                        Phasellus convallis est nec scelerisque bibendum.</p>
                 </div>
                 <div class="announcement">
                     <h3>Announcement 2</h3>
-                    <p>Proin nisl ex, lacinia varius commodo eget, fermentum ut nisl. Curabitur odio mi, efficitur eget pretium nec, pulvinar in magna.</p>
+                    <p>Proin nisl ex, lacinia varius commodo eget, fermentum ut nisl. Curabitur odio mi, efficitur eget
+                        pretium nec, pulvinar in magna.</p>
                 </div>
                 <div class="announcement">
                     <h3>Announcement 3</h3>
-                    <p>Sed vitae urna magna. Sed cursus, dui a fermentum elementum, sem est fermentum tellus, nec convallis nulla est in tortor. Curabitur facilisis eros volutpat orci venenatis pretium.</p>
+                    <p>Sed vitae urna magna. Sed cursus, dui a fermentum elementum, sem est fermentum tellus, nec
+                        convallis nulla est in tortor. Curabitur facilisis eros volutpat orci venenatis pretium.</p>
                 </div>
             </div>
         </div>
@@ -161,28 +164,28 @@
             <h2>Trending</h2>
             <div class="trending white-box">
                 <div class="main-user-info">
-                    <img src="" alt="profile picture">
+                    <img src="media/account.svg" alt="profile picture">
                     <div>
                         <p>@person1</p>
                         <p>Description1</p>
                     </div>
                 </div>
                 <div class="main-user-info">
-                    <img src="" alt="profile picture">
+                    <img src="media/account.svg" alt="profile picture">
                     <div>
                         <p>@person2</p>
                         <p>Description2</p>
                     </div>
                 </div>
                 <div class="main-user-info">
-                    <img src="" alt="profile picture">
+                    <img src="media/account.svg" alt="profile picture">
                     <div>
                         <p>@person3</p>
                         <p>Description3</p>
                     </div>
                 </div>
                 <div class="main-user-info">
-                    <img src="" alt="profile picture">
+                    <img src="media/account.svg" alt="profile picture">
                     <div>
                         <p>@person4</p>
                         <p>Description4</p>
@@ -190,10 +193,6 @@
                 </div>
             </div>
         </div>
-
-
-
-
     </main>
 </body>
 
